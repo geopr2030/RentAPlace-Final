@@ -1,0 +1,68 @@
+<div class="add-property-container">
+  <div class="add-property-card">
+    <div class="card-header">
+      <h2>🏠 Add New Property</h2>
+      <p>List your home on RentAPlace and start earning today.</p>
+    </div>
+
+    <form (ngSubmit)="submit()" class="property-form">
+      
+      <div class="form-group row">
+        <div class="col-md-6">
+          <label>Title</label>
+          <input type="text" class="form-control" placeholder="E.g., Seaside Villa" [(ngModel)]="property.title" name="title" required />
+        </div>
+        <div class="col-md-6">
+          <label>Property Type</label>
+          <select class="form-control" [(ngModel)]="property.propertyType" name="propertyType" required>
+            <option value="" disabled selected>Select Type</option>
+            <option value="Villa">Villa</option>
+            <option value="Flat">Flat</option>
+            <option value="House">House</option>
+            <option value="Cabin">Cabin</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <div class="col-md-6">
+          <label>Location</label>
+          <input type="text" class="form-control" placeholder="City, Country" [(ngModel)]="property.location" name="location" required />
+        </div>
+        <div class="col-md-6">
+          <label>Price Per Night (₹)</label>
+          <input type="number" class="form-control" placeholder="E.g., 5000" [(ngModel)]="property.pricePerNight" name="pricePerNight" required />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Description</label>
+        <textarea class="form-control textarea-desc" placeholder="Describe the property..." [(ngModel)]="property.description" name="description" rows="4"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Features & Amenities</label>
+        <input type="text" class="form-control" placeholder="E.g., WiFi, Pool, AC (comma separated)" [(ngModel)]="property.features" name="features" />
+      </div>
+
+      <div class="form-group file-upload-group">
+        <label>Property Images</label>
+        <div class="file-upload-box">
+          <input type="file" class="file-input" (change)="onFileChange($event)" multiple accept="image/*" />
+          <div class="upload-placeholder">
+            <span class="upload-icon">📸</span>
+            <p>Click to select photos</p>
+            <small>{{ selectedFiles.length > 0 ? selectedFiles.length + ' files selected' : 'You can select multiple images' }}</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn-primary btn-submit" [disabled]="!property.title || !property.location || !property.pricePerNight || !property.propertyType">
+          Post Listing
+        </button>
+      </div>
+
+    </form>
+  </div>
+</div>

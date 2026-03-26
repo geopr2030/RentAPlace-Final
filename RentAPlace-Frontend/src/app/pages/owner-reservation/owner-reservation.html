@@ -1,0 +1,78 @@
+<div class="reservations-container">
+  <div class="page-header">
+    <h1>Manage Reservations</h1>
+    <p>Review and manage bookings for your properties</p>
+  </div>
+
+  <!-- Loading -->
+  <div *ngIf="loading" class="loader-container">
+    <div class="loader"></div>
+    <p>Loading reservations...</p>
+  </div>
+
+  <!-- No Properties -->
+  <div *ngIf="!loading && properties.length === 0" class="empty-state">
+    <span class="icon">🏠</span>
+    <h2>No properties listed yet</h2>
+    <p>Add your first property to start receiving bookings.</p>
+    <a routerLink="/owner/add-property" class="btn-primary">Add Property</a>
+  </div>
+
+  <!-- No Reservations -->
+  <div *ngIf="!loading && properties.length > 0 && getTotalReservations() === 0" class="empty-state">
+    <span class="icon">📋</span>
+    <h2>No reservations yet</h2>
+    <p>You haven't received any bookings for your properties.</p>
+  </div>
+
+  <!-- Properties with Reservations -->
+  <div *ngIf="!loading && properties.length > 0 && getTotalReservations() > 0">
+    <div *ngFor="let prop of properties" class="property-section">
+      <div *ngIf="getReservations(prop.propertyId).length > 0">
+        <div class="property-header">
+          <h2>{{ prop.title }}</h2>
+          <span class="location">📍 {{ prop.location }}</span>
+          <span class="count">{{ getReservations(prop.propertyId).length }} booking(s)</span>
+        </div>
+
+        <div class="reservation-cards">
+          <div class="res-card" *ngFor="let res of getReservations(prop.propertyId)">
+            <div class="res-info">
+              <div class="renter-name">
+                <span class="label">Guest</span>
+                <strong>{{ res.renterName }}</strong>
+              </div>
+              <div class="dates">
+                <span class="label">Dates</span>
+                <span>🗓️ {{ res.checkInDate | date:'mediumDate' }} → {{ res.checkOutDate | date:'mediumDate' }}</span>
+              </div>
+              <div class="amount">
+                <span class="label">Amount</span>
+                <strong class="price">₹{{ res.totalPrice }}</strong>
+              </div>
+            </div>
+
+            <div class="res-actions">
+              <span class="status-badge" [ngClass]="getStatusClass(res.status)">
+                {{ res.status }}
+              </span>
+
+              <div class="action-buttons" *ngIf="res.status === 'Pending'">
+                <button class="btn-confirm" 
+                        [disabled]="actionLoading[res.reservationId]"
+                        (click)="onConfirm(res.reservationId)">
+                  {{ actionLoading[res.reservationId] ? '...' : '✓ Confirm' }}
+                </button>
+                <button class="btn-reject"
+                        [disabled]="actionLoading[res.reservationId]"
+                        (click)="onReject(res.reservationId)">
+                  {{ actionLoading[res.reservationId] ? '...' : '✕ Reject' }}
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

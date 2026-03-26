@@ -1,0 +1,56 @@
+<div class="auth-container">
+  <div class="auth-card">
+    <h2>Create Account</h2>
+    <p class="subtitle">Join RentAPlace as a Renter or Owner</p>
+
+    <div class="error-msg" *ngIf="error">{{ error }}</div>
+
+    <form (ngSubmit)="onSubmit()" #regForm="ngForm">
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" [(ngModel)]="dto.fullName"
+               required placeholder="John Doe" />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" [(ngModel)]="dto.email"
+               required email placeholder="you@example.com" />
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phoneNumber" [(ngModel)]="dto.phoneNumber"
+               placeholder="9876543210" />
+      </div>
+
+      <div class="form-group">
+        <label for="role">I am a</label>
+        <select id="role" name="role" [(ngModel)]="dto.role" required>
+          <option value="Renter">Renter — I want to rent properties</option>
+          <option value="Owner">Owner — I want to list properties</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" [(ngModel)]="dto.password"
+               required minlength="6" placeholder="••••••••" />
+      </div>
+
+      <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" name="confirmPassword"
+               [(ngModel)]="confirmPassword" required placeholder="••••••••" />
+      </div>
+
+      <button type="submit" [disabled]="loading || !regForm.valid" class="btn-primary">
+        {{ loading ? 'Creating Account...' : 'Create Account' }}
+      </button>
+    </form>
+
+    <p class="switch-link">
+      Already have an account? <a routerLink="/login">Sign in</a>
+    </p>
+  </div>
+</div>

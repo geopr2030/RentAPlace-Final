@@ -1,0 +1,15 @@
+Application bundle generation failed. [1.572 seconds] - 2026-03-22T17:50:27.796Z
+
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'submitReview' does not exist on type 'PropertyDetailComponent'. Did you mean 'submittingReview'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/property-detail/property-detail.component.html:67:51:
+[37m      67 │ ...ss="btn-primary" (click)="[32msubmitReview[37m()" [disabled]="submittin...
+         ╵                              [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component PropertyDetailComponent.
+
+    src/app/pages/property-detail/property-detail.component.ts:16:15:
+[37m      16 │   templateUrl: [32m'./property-detail.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m

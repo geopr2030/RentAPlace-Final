@@ -1,0 +1,49 @@
+<div class="page-container">
+  <div class="dashboard-header">
+    <div class="header-text">
+      <h2>My Properties</h2>
+      <p>Manage your listings and view their details</p>
+    </div>
+    <button class="btn-primary" [routerLink]="['/owner/add-property']">+ Add Property</button>
+  </div>
+
+  <div *ngIf="loading" class="status-box loading">
+    <div class="spinner"></div> Loading your properties...
+  </div>
+
+  <div *ngIf="!loading && properties.length === 0" class="status-box empty">
+    <span class="empty-icon">🏠</span>
+    <h3>No properties found</h3>
+    <p>You haven't listed any properties yet. Click the button above to start earning!</p>
+  </div>
+
+  <div *ngIf="!loading && properties.length > 0" class="property-grid">
+    <div *ngFor="let p of properties" class="property-card">
+      <div class="card-image-wrapper">
+        <img
+          [src]="p.imageUrls && p.imageUrls.length > 0 ? getImageUrl(p.imageUrls[0]) : 'assets/placeholder.jpg'"
+          alt="Property image"
+          class="card-img"
+        />
+        <div class="price-badge">₹{{ p.pricePerNight }}<small>/night</small></div>
+      </div>
+
+      <div class="card-content">
+        <div class="card-meta">
+          <span class="prop-type">{{ p.propertyType }}</span>
+        </div>
+        <h3 class="card-title">{{ p.title }}</h3>
+        <p class="card-location">📍 {{ p.location }}</p>
+        
+        <div class="card-stats">
+          <span class="rating">⭐ {{ p.averageRating || 'New' }}</span>
+        </div>
+      </div>
+
+      <div class="card-actions">
+        <button class="btn-outline btn-sm" [routerLink]="['/owner/edit-property', p.propertyId]">Edit</button>
+        <button class="btn-danger btn-sm" (click)="deleteProperty(p.propertyId)">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>

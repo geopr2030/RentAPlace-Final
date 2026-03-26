@@ -1,0 +1,155 @@
+<div class="detail-container">
+  <div *ngIf="loading" class="loader-container">
+    <div class="loader"></div>
+    <p>Loading property details...</p>
+  </div>
+
+  <div *ngIf="!loading && !property" class="error-state">
+    <h2>Property not found</h2>
+    <a routerLink="/" class="btn-primary">Back to Home</a>
+  </div>
+
+  <div *ngIf="!loading && property" class="property-layout">
+    <div class="main-content">
+      <div class="header">
+        <h1 class="title">{{ property.title }}</h1>
+        <div class="meta">
+          <span class="location">📍 {{ property.location }}</span>
+          <span class="rating" *ngIf="property.averageRating > 0">⭐ {{ property.averageRating | number:'1.1-1' }} ({{ property.reviewCount }} reviews)</span>
+        </div>
+      </div>
+
+      <!-- Image Gallery -->
+      <div class="gallery">
+        <div class="main-image">
+          <img [src]="property.imageUrls[0] ? (property.imageUrls[0].startsWith('http') ? property.imageUrls[0] : baseUrl + '/' + property.imageUrls[0]) : 'assets/placeholder-property.jpg'" [alt]="property.title">
+        </div>
+        <div class="thumbnails" *ngIf="property.imageUrls.length > 1">
+          <img *ngFor="let img of property.imageUrls.slice(1, 5)" 
+               [src]="img.startsWith('http') ? img : baseUrl + '/' + img" class="thumb">
+        </div>
+      </div>
+
+      <div class="info-grid">
+        <div class="description-section">
+          <h3>About this place</h3>
+          <p class="description">{{ property.description }}</p>
+          
+          <div class="features-section">
+            <h3>Features & Amenities</h3>
+            <div class="features-grid">
+              <span *ngFor="let f of property.features" class="feature-item">✔️ {{ f }}</span>
+            </div>
+          </div>
+
+          <!-- Reviews Section -->
+          <div class="reviews-section">
+            <h3 class="reviews-title">Reviews <span class="review-count">({{ property.reviewCount }})</span></h3>
+
+            <!-- Review Form (Only for logged in Renters, but we'll show to logged in users and handle error if not renter) -->
+            <div class="review-form-container" *ngIf="auth.isLoggedIn()">
+              <h4>Leave a Review</h4>
+              <div class="stars-input">
+                <label>Rating:</label>
+                <select [(ngModel)]="newReview.rating" class="rating-select">
+                  <option [ngValue]="5">5 - Excellent ⭐⭐⭐⭐⭐</option>
+                  <option [ngValue]="4">4 - Very Good ⭐⭐⭐⭐</option>
+                  <option [ngValue]="3">3 - Average ⭐⭐⭐</option>
+                  <option [ngValue]="2">2 - Poor ⭐⭐</option>
+                  <option [ngValue]="1">1 - Terrible ⭐</option>
+                </select>
+              </div>
+              <textarea [(ngModel)]="newReview.comment" placeholder="Share your experience..." rows="3"></textarea>
+              <div class="messages">
+                <p class="error" *ngIf="reviewError">{{ reviewError }}</p>
+                <p class="success" *ngIf="reviewSuccess">{{ reviewSuccess }}</p>
+              </div>
+              <button class="btn-primary" (click)="submitReview()" [disabled]="submittingReview || !newReview.rating">
+                {{ submittingReview ? 'Submitting...' : 'Submit Review' }}
+              </button>
+            </div>
+            <div class="login-prompt" *ngIf="!auth.isLoggedIn()">
+              <p>Please <a routerLink="/login">log in</a> to leave a review.</p>
+            </div>
+
+            <!-- Review List -->
+            <div class="review-list" *ngIf="reviews.length > 0">
+              <div class="review-card" *ngFor="let rev of reviews">
+                <div class="review-header">
+                  <div class="reviewer-avatar">{{ rev.reviewerName.charAt(0) | uppercase }}</div>
+                  <div class="reviewer-info">
+                    <strong>{{ rev.reviewerName }}</strong>
+                    <span class="review-date">{{ rev.createdAt | date:'mediumDate' }}</span>
+                  </div>
+                  <div class="review-rating">
+                    <span *ngFor="let star of stars" [class.filled]="star <= rev.rating">★</span>
+                  </div>
+                </div>
+                <p class="review-comment">{{ rev.comment }}</p>
+              </div>
+            </div>
+            <div *ngIf="reviews.length === 0" class="no-reviews">
+              <p>No reviews yet. Be the first to review!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sticky Reservation Sidebar -->
+        <div class="sidebar">
+          <div class="reservation-card">
+            <div class="price-header">
+              <span class="price">₹{{ property.pricePerNight }}</span>
+              <span class="per-night">/ night</span>
+            </div>
+
+            <div class="reserv-form">
+              <div class="input-group">
+                <label>CHECK-IN</label>
+                <input type="date" [(ngModel)]="checkIn" (change)="calculateTotal()">
+              </div>
+              <div class="input-group">
+                <label>CHECK-OUT</label>
+                <input type="date" [(ngModel)]="checkOut" (change)="calculateTotal()">
+              </div>
+
+              <div class="total-section" *ngIf="totalPrice > 0">
+                <div class="line-item">
+                  <span>₹{{ property.pricePerNight }} x nights</span>
+                  <span>₹{{ totalPrice }}</span>
+                </div>
+                <div class="total">
+                  <span>Total</span>
+                  <span>₹{{ totalPrice }}</span>
+                </div>
+              </div>
+
+              <div class="messages">
+                <p class="error" *ngIf="reservationError">{{ reservationError }}</p>
+                <p class="success" *ngIf="reservationSuccess">{{ reservationSuccess }}</p>
+              </div>
+
+              <button class="btn-reserve" 
+                      [disabled]="reserving || !checkIn || !checkOut" 
+                      (click)="onReserve()">
+                {{ reserving ? 'Processing...' : 'Reserve' }}
+              </button>
+              
+              <p class="note">You won't be charged yet</p>
+            </div>
+          </div>
+
+          <!-- Contact Owner Card -->
+          <div class="contact-card" *ngIf="auth.isLoggedIn() && auth.getUserRole() === 'Renter'">
+            <h3>Have a question?</h3>
+            <p>Message the host directly.</p>
+            <textarea class="contact-textarea" [(ngModel)]="contactMessage" placeholder="Hi, I'm interested in..." rows="3"></textarea>
+            <button class="btn-outline btn-contact" (click)="sendMessageToOwner()" [disabled]="sendingMessage || !contactMessage">
+              {{ sendingMessage ? 'Sending...' : 'Contact Owner' }}
+            </button>
+            <p class="success contact-success" *ngIf="messageSuccess">{{ messageSuccess }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

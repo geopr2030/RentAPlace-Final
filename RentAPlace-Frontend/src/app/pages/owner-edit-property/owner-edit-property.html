@@ -1,0 +1,49 @@
+<div style="padding: 20px;">
+  <h2>Edit Property</h2>
+
+  <form (ngSubmit)="update()">
+    <input
+      type="text"
+      [(ngModel)]="property.title"
+      name="title"
+      placeholder="Title"
+    />
+
+    <input
+      type="text"
+      [(ngModel)]="property.description"
+      name="description"
+      placeholder="Description"
+    />
+
+    <input
+      type="text"
+      [(ngModel)]="property.location"
+      name="location"
+      placeholder="Location"
+    />
+
+    <input
+      type="text"
+      [(ngModel)]="property.propertyType"
+      name="propertyType"
+      placeholder="Property Type"
+    />
+
+    <input
+      type="number"
+      [(ngModel)]="property.pricePerNight"
+      name="pricePerNight"
+      placeholder="Price Per Night"
+    />
+
+    <input
+      type="text"
+      [(ngModel)]="property.features"
+      name="features"
+      placeholder="Features"
+    />
+
+    <button type="submit">Update</button>
+  </form>
+</div>

@@ -1,0 +1,56 @@
+<div class="page-container">
+  <div class="inbox-header">
+    <div class="header-text">
+      <h2>Inbox</h2>
+      <p>Your conversations and system alerts</p>
+    </div>
+    <button class="btn-outline" (click)="fetchMessages()">Refresh</button>
+  </div>
+
+  <div *ngIf="loading" class="status-box loading">
+    <div class="spinner"></div> Loading messages...
+  </div>
+
+  <div *ngIf="!loading && messages.length === 0" class="status-box empty">
+    <span class="empty-icon">📫</span>
+    <h3>Your inbox is empty</h3>
+    <p>You don't have any messages yet.</p>
+  </div>
+
+  <div *ngIf="!loading && messages.length > 0" class="message-list">
+    <div class="message-card" *ngFor="let msg of messages" [ngClass]="{'unread': !msg.isRead && msg.receiverId === myId}">
+      <div class="msg-header">
+        <div class="msg-sender-info">
+          <div class="avatar">{{ msg.senderName.charAt(0) | uppercase }}</div>
+          <div>
+            <strong>{{ msg.senderName }}</strong>
+            <div class="msg-property" *ngIf="msg.propertyTitle">re: {{ msg.propertyTitle }}</div>
+          </div>
+        </div>
+        <div class="msg-time">{{ msg.sentAt | date:'medium' }}</div>
+      </div>
+
+      <div class="msg-body">
+        <p [ngClass]="{'system-alert': msg.senderId === 0 || msg.senderName === 'System'}">{{ msg.content }}</p>
+      </div>
+
+      <!-- Don't allow replying to system alerts if senderId === 0, but for now we allow replying to any user -->
+      <div class="msg-actions">
+        <button class="btn-outline btn-sm" (click)="toggleReply(msg.messageId)">
+          {{ activeReplyId === msg.messageId ? 'Cancel Reply' : 'Reply' }}
+        </button>
+      </div>
+
+      <!-- Reply Box -->
+      <div class="reply-box" *ngIf="activeReplyId === msg.messageId">
+        <textarea [(ngModel)]="replyText[msg.messageId]" placeholder="Type your reply..." rows="3" class="form-control"></textarea>
+        <div class="reply-actions">
+          <button class="btn-primary" (click)="sendReply(msg)" [disabled]="sendingReply[msg.messageId] || !replyText[msg.messageId]">
+            {{ sendingReply[msg.messageId] ? 'Sending...' : 'Send Reply' }}
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

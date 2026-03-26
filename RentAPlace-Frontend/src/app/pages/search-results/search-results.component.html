@@ -1,0 +1,27 @@
+<div class="search-container">
+  <div class="search-header">
+    <div class="result-info">
+      <h1>Search Results</h1>
+      <p *ngIf="!loading">{{ results.length }} properties found for your search</p>
+    </div>
+    <a routerLink="/" class="btn-back">🔙 Back to Home</a>
+  </div>
+
+  <div *ngIf="loading" class="loader-container">
+    <div class="loader"></div>
+    <p>Searching for your perfect stay...</p>
+  </div>
+
+  <div *ngIf="!loading && results.length === 0" class="empty-state">
+    <div class="empty-content">
+      <span class="icon">🔍</span>
+      <h2>No matches found</h2>
+      <p>Try adjusting your filters or searching in a different location.</p>
+      <a routerLink="/" class="btn-primary">Try New Search</a>
+    </div>
+  </div>
+
+  <div *ngIf="!loading && results.length > 0" class="property-grid">
+    <app-property-card *ngFor="let p of results" [property]="p"></app-property-card>
+  </div>
+</div>

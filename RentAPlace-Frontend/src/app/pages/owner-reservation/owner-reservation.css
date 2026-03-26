@@ -1,0 +1,248 @@
+.reservations-container {
+  padding: 40px 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-header {
+  margin-bottom: 32px;
+}
+
+.page-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: #222;
+}
+
+.page-header p {
+  color: #666;
+  font-size: 15px;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.empty-state .icon {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.empty-state h2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.empty-state p {
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Property Section */
+.property-section {
+  margin-bottom: 40px;
+}
+
+.property-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.property-header h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+}
+
+.property-header .location {
+  font-size: 14px;
+  color: #666;
+}
+
+.property-header .count {
+  margin-left: auto;
+  font-size: 13px;
+  background: #eef2ff;
+  color: #667eea;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+/* Reservation Cards */
+.reservation-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.res-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: box-shadow 0.2s;
+}
+
+.res-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.res-info {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.res-info .label {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #888;
+  margin-bottom: 2px;
+}
+
+.renter-name strong {
+  font-size: 15px;
+  color: #333;
+}
+
+.dates span {
+  font-size: 14px;
+  color: #444;
+}
+
+.amount .price {
+  font-size: 16px;
+  color: #27ae60;
+}
+
+/* Actions */
+.res-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.status-badge {
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.status-pending {
+  background: #fff8e1;
+  color: #f39c12;
+}
+
+.status-confirmed {
+  background: #e8f8f0;
+  color: #27ae60;
+}
+
+.status-cancelled {
+  background: #ffeaea;
+  color: #e74c3c;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-confirm {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-confirm:hover { background: #219a52; }
+.btn-confirm:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.btn-reject {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-reject:hover { background: #c0392b; }
+.btn-reject:disabled { opacity: 0.6; cursor: not-allowed; }
+
+/* Loader */
+.loader-container {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #667eea;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 16px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .res-card {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .res-info {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .property-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .property-header .count {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,56 @@
+<nav class="navbar">
+  <a routerLink="/" class="logo">🏠 RentAPlace</a>
+
+  <div class="nav-links">
+    <!-- Guest -->
+    <ng-container *ngIf="!auth.isLoggedIn()">
+      <a routerLink="/login" class="nav-link">Login</a>
+      <a routerLink="/register" class="nav-link btn-register">Register</a>
+    </ng-container>
+
+    <!-- Renter -->
+    <ng-container *ngIf="auth.isLoggedIn() && auth.getUserRole() === 'Renter'">
+      <a routerLink="/" class="nav-link">Home</a>
+      <a routerLink="/my-reservations" class="nav-link">My Reservations</a>
+      <a routerLink="/inbox" class="nav-link">Messages</a>
+    </ng-container>
+
+    <!-- Owner -->
+    <ng-container *ngIf="auth.isLoggedIn() && auth.getUserRole() === 'Owner'">
+      <a routerLink="/owner/dashboard" class="nav-link">My Listings</a>
+      <a routerLink="/owner/reservations" class="nav-link">Reservations</a>
+      <a routerLink="/inbox" class="nav-link">Messages</a>
+    </ng-container>
+
+    <!-- Logged in user info & Notification Bell -->
+    <ng-container *ngIf="auth.isLoggedIn()">
+      
+      <!-- Notification Bell -->
+      <div class="notification-container">
+        <button class="nav-link bell-button" (click)="toggleNotifications()">
+          🔔
+          <span class="badge" *ngIf="unreadMessages.length > 0">{{ unreadMessages.length }}</span>
+        </button>
+        <!-- Popout Dropdown -->
+        <div class="notification-dropdown" *ngIf="showNotifications">
+          <div class="dropdown-header">Notifications ({{ unreadMessages.length }})</div>
+          <div class="dropdown-body">
+            <div class="dropdown-item" *ngFor="let msg of unreadMessages">
+              <p class="msg-content">{{ msg.content }}</p>
+              <div class="msg-actions">
+                <span class="msg-time">{{ msg.sentAt | date:'short' }}</span>
+                <button class="btn-read" (click)="markAsRead(msg)">Mark Read</button>
+              </div>
+            </div>
+            <div *ngIf="unreadMessages.length === 0" class="no-msgs">
+              <p>No new notifications.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <span class="user-name">{{ auth.getUserName() }}</span>
+      <button (click)="auth.logout()" class="nav-link btn-logout">Logout</button>
+    </ng-container>
+  </div>
+</nav>

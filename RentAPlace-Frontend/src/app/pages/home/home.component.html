@@ -1,0 +1,76 @@
+<div class="home-container">
+  <!-- Hero Section with Search -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Find your next home-away-from-home</h1>
+      <p>Book unique stays from local owners across India.</p>
+
+      <div class="search-box">
+        <form (ngSubmit)="onSearch()" class="search-form">
+          <div class="search-field">
+            <label>Location</label>
+            <input type="text" name="location" [(ngModel)]="searchParams.location" placeholder="Where are you going?">
+          </div>
+          
+          <div class="search-divider"></div>
+          
+          <div class="search-field">
+            <label>Type</label>
+            <select name="type" [(ngModel)]="searchParams.propertyType">
+              <option value="">Any Type</option>
+              <option *ngFor="let t of propertyTypes" [value]="t">{{ t }}</option>
+            </select>
+          </div>
+
+          <div class="search-divider"></div>
+
+          <div class="search-field">
+            <label>Dates</label>
+            <div class="date-inputs">
+              <input type="date" name="checkIn" [(ngModel)]="searchParams.checkIn">
+              <span>to</span>
+              <input type="date" name="checkOut" [(ngModel)]="searchParams.checkOut">
+            </div>
+          </div>
+
+          <button type="submit" class="btn-search">🔍 Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- Top Rated Section -->
+  <section class="section">
+    <div class="section-header">
+      <h2>Top-Rated Properties</h2>
+      <p>Our guest favorites across the country</p>
+    </div>
+
+    <div *ngIf="loading" class="loader-container">
+      <div class="loader"></div>
+      <p>Finding great places for you...</p>
+    </div>
+
+    <div *ngIf="!loading && topProperties.length === 0" class="empty-state">
+      <p>No properties found yet. Check back later!</p>
+    </div>
+
+    <div *ngIf="!loading && topProperties.length > 0" class="property-grid">
+      <app-property-card *ngFor="let p of topProperties" [property]="p"></app-property-card>
+    </div>
+  </section>
+
+  <!-- Categories / Features Section (Optional visual) -->
+  <section class="section bg-light">
+    <div class="section-header">
+      <h2>Explore by Category</h2>
+    </div>
+    <div class="category-grid">
+      <div class="cat-card">🏖️ Beach Facing</div>
+      <div class="cat-card">🏊 With Pool</div>
+      <div class="cat-card">🏡 Cozy Villas</div>
+      <div class="cat-card">🏔️ Mountain View</div>
+      <div class="cat-card">🌿 Garden Stays</div>
+    </div>
+  </section>
+</div>

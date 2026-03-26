@@ -1,0 +1,30 @@
+<div class="auth-container">
+  <div class="auth-card">
+    <h2>Welcome Back</h2>
+    <p class="subtitle">Sign in to your RentAPlace account</p>
+
+    <div class="error-msg" *ngIf="error">{{ error }}</div>
+
+    <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" [(ngModel)]="dto.email"
+               required email placeholder="you@example.com" />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" [(ngModel)]="dto.password"
+               required minlength="6" placeholder="••••••••" />
+      </div>
+
+      <button type="submit" [disabled]="loading || !loginForm.valid" class="btn-primary">
+        {{ loading ? 'Signing in...' : 'Sign In' }}
+      </button>
+    </form>
+
+    <p class="switch-link">
+      Don't have an account? <a routerLink="/register">Register here</a>
+    </p>
+  </div>
+</div>

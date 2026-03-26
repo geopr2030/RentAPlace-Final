@@ -1,0 +1,42 @@
+<div class="reservations-container">
+  <div class="header">
+    <h1>My Reservations</h1>
+    <p>Manage your upcoming and past stays</p>
+  </div>
+
+  <div *ngIf="loading" class="loader-container">
+    <div class="loader"></div>
+    <p>Loading your trips...</p>
+  </div>
+
+  <div *ngIf="!loading && reservations.length === 0" class="empty-state">
+    <div class="empty-content">
+      <span class="icon">✈️</span>
+      <h2>No trips booked yet</h2>
+      <p>Time to dust off your bags and start planning your next adventure.</p>
+      <a routerLink="/" class="btn-primary">Explore Properties</a>
+    </div>
+  </div>
+
+  <div *ngIf="!loading && reservations.length > 0" class="reservations-list">
+    <div class="res-card" *ngFor="let res of reservations">
+      <div class="res-info">
+        <h3>{{ res.propertyTitle }}</h3>
+        <p class="dates">🗓️ {{ res.checkInDate | date:'mediumDate' }} - {{ res.checkOutDate | date:'mediumDate' }}</p>
+        <p class="price">Total Amount paid: <strong>₹{{ res.totalPrice }}</strong></p>
+      </div>
+      
+      <div class="res-status">
+        <span class="status-badge" [ngClass]="getStatusClass(res.status)">
+          {{ res.status }}
+        </span>
+        <button *ngIf="res.status === 'Pending'" 
+                (click)="onCancel(res.reservationId)" 
+                class="btn-cancel">Cancel</button>
+        <button *ngIf="res.status === 'Confirmed'" 
+                [routerLink]="['/property', res.propertyId]" 
+                class="btn-primary" style="margin-left: 12px; padding: 8px 16px; font-size: 14px;">Review Property</button>
+      </div>
+    </div>
+  </div>
+</div>

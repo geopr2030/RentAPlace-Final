@@ -1,0 +1,780 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\rentaplace.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\rentaplace.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\rentaplace_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\rentaplace_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\repositories\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\repositories\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\interfaces\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\interfaces\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\interfaces\\ipropertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\interfaces\\ipropertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\dtos\\property\\updatepropertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\dtos\\property\\updatepropertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\dtos\\property\\propertyresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\dtos\\property\\propertyresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\dtos\\property\\createpropertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\dtos\\property\\createpropertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\interfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\interfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\interfaces\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\interfaces\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\dtos\\message\\sendmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\dtos\\message\\sendmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\dtos\\message\\messageresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\dtos\\message\\messageresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\dtos\\reservation\\reservationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\dtos\\reservation\\reservationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\dtos\\reservation\\createreservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\dtos\\reservation\\createreservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|d:\\rentaplace final\\rentaplace\\rentaplace\\rentaplacebackend\\rentaplace\\migrations\\20260318044444_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688092B0-BBA7-601B-E18D-1401409E1871}|RentAPlace\\RentAPlace.csproj|solutionrelative:rentaplace\\migrations\\20260318044444_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "RentAPlace\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Properties\\launchSettings.json",
+              "RelativeToolTip": "RentAPlace\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T07:23:27.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RentAPlace.http",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\RentAPlace.http",
+              "RelativeDocumentMoniker": "RentAPlace\\RentAPlace.http",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\RentAPlace.http",
+              "RelativeToolTip": "RentAPlace\\RentAPlace.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-24T07:23:13.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RentAPlace_DB.sql",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\RentAPlace_DB.sql",
+              "RelativeDocumentMoniker": "RentAPlace\\RentAPlace_DB.sql",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\RentAPlace_DB.sql",
+              "RelativeToolTip": "RentAPlace\\RentAPlace_DB.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-24T07:22:57.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "RentAPlace\\appsettings.Development.json",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\appsettings.Development.json",
+              "RelativeToolTip": "RentAPlace\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T07:22:22.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PropertyRepository.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Repositories\\PropertyRepository.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Repositories\\PropertyRepository.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Repositories\\PropertyRepository.cs",
+              "RelativeToolTip": "RentAPlace\\Repositories\\PropertyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:54:48.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\appsettings.json",
+              "RelativeDocumentMoniker": "RentAPlace\\appsettings.json",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\appsettings.json",
+              "RelativeToolTip": "RentAPlace\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-14T18:14:48.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPropertyService.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IPropertyService.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Interfaces\\IPropertyService.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IPropertyService.cs",
+              "RelativeToolTip": "RentAPlace\\Interfaces\\IPropertyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:56:00.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Controllers\\MessageController.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "RentAPlace\\Controllers\\MessageController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:14:13.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPropertyRepository.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IPropertyRepository.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Interfaces\\IPropertyRepository.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IPropertyRepository.cs",
+              "RelativeToolTip": "RentAPlace\\Interfaces\\IPropertyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:09:06.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Program.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Program.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Program.cs",
+              "RelativeToolTip": "RentAPlace\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABAAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:16:31.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Controllers\\PropertyController.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "RentAPlace\\Controllers\\PropertyController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwHwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:13:27.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PropertyService.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Services\\PropertyService.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Services\\PropertyService.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Services\\PropertyService.cs",
+              "RelativeToolTip": "RentAPlace\\Services\\PropertyService.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAwEYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:53:21.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdatePropertyDto.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Property\\UpdatePropertyDto.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\DTOs\\Property\\UpdatePropertyDto.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Property\\UpdatePropertyDto.cs",
+              "RelativeToolTip": "RentAPlace\\DTOs\\Property\\UpdatePropertyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:59:55.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Services\\ReservationService.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Services\\ReservationService.cs",
+              "RelativeToolTip": "RentAPlace\\Services\\ReservationService.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAQwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:53:40.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "RentAPlace\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:56:48.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Controllers\\ReservationController.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "RentAPlace\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAcwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:13:55.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PropertyResponseDto.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Property\\PropertyResponseDto.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\DTOs\\Property\\PropertyResponseDto.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Property\\PropertyResponseDto.cs",
+              "RelativeToolTip": "RentAPlace\\DTOs\\Property\\PropertyResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:00:05.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreatePropertyDto.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Property\\CreatePropertyDto.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\DTOs\\Property\\CreatePropertyDto.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Property\\CreatePropertyDto.cs",
+              "RelativeToolTip": "RentAPlace\\DTOs\\Property\\CreatePropertyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:59:46.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Models\\Message.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Models\\Message.cs",
+              "RelativeToolTip": "RentAPlace\\Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:58:19.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Property.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Models\\Property.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Models\\Property.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Models\\Property.cs",
+              "RelativeToolTip": "RentAPlace\\Models\\Property.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:58:07.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Services\\AuthService.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Services\\AuthService.cs",
+              "RelativeToolTip": "RentAPlace\\Services\\AuthService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAUwCIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:53:08.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Models\\User.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Models\\User.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Models\\User.cs",
+              "RelativeToolTip": "RentAPlace\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:57:56.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20260318044444_initialcreate.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Migrations\\20260318044444_initialcreate.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Migrations\\20260318044444_initialcreate.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Migrations\\20260318044444_initialcreate.cs",
+              "RelativeToolTip": "RentAPlace\\Migrations\\20260318044444_initialcreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T04:44:44.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "RentAPlace\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:14:33.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RentAPlace\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:13:05.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Services\\MessageService.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Services\\MessageService.cs",
+              "RelativeToolTip": "RentAPlace\\Services\\MessageService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:53:51.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Services\\AdminService.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Services\\AdminService.cs",
+              "RelativeToolTip": "RentAPlace\\Services\\AdminService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA1wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:54:02.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Repositories\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Repositories\\MessageRepository.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Repositories\\MessageRepository.cs",
+              "RelativeToolTip": "RentAPlace\\Repositories\\MessageRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:55:14.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Repositories\\ReservationRepository.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "RentAPlace\\Repositories\\ReservationRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:55:02.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "RentAPlace\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:54:33.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IAdminService.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Interfaces\\IAdminService.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IAdminService.cs",
+              "RelativeToolTip": "RentAPlace\\Interfaces\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:56:33.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IMessageService.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IMessageService.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Interfaces\\IMessageService.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IMessageService.cs",
+              "RelativeToolTip": "RentAPlace\\Interfaces\\IMessageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:56:23.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IReservationService.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Interfaces\\IReservationService.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IReservationService.cs",
+              "RelativeToolTip": "RentAPlace\\Interfaces\\IReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:56:12.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "RentAPlace\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:55:45.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IMessageRepository.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IMessageRepository.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Interfaces\\IMessageRepository.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IMessageRepository.cs",
+              "RelativeToolTip": "RentAPlace\\Interfaces\\IMessageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:57:23.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Interfaces\\IReservationRepository.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Interfaces\\IReservationRepository.cs",
+              "RelativeToolTip": "RentAPlace\\Interfaces\\IReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:57:09.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Helpers\\JwtHelper.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "RentAPlace\\Helpers\\JwtHelper.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:07:16.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "RentAPlace\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:07:00.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SendMessageDto.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Message\\SendMessageDto.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\DTOs\\Message\\SendMessageDto.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Message\\SendMessageDto.cs",
+              "RelativeToolTip": "RentAPlace\\DTOs\\Message\\SendMessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:01:27.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MessageResponseDto.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Message\\MessageResponseDto.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\DTOs\\Message\\MessageResponseDto.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Message\\MessageResponseDto.cs",
+              "RelativeToolTip": "RentAPlace\\DTOs\\Message\\MessageResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:01:35.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ReservationResponseDto.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Reservation\\ReservationResponseDto.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\DTOs\\Reservation\\ReservationResponseDto.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Reservation\\ReservationResponseDto.cs",
+              "RelativeToolTip": "RentAPlace\\DTOs\\Reservation\\ReservationResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:00:56.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CreateReservationDto.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Reservation\\CreateReservationDto.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\DTOs\\Reservation\\CreateReservationDto.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Reservation\\CreateReservationDto.cs",
+              "RelativeToolTip": "RentAPlace\\DTOs\\Reservation\\CreateReservationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T18:00:30.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\DTOs\\Auth\\LoginDto.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeToolTip": "RentAPlace\\DTOs\\Auth\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:59:19.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\DTOs\\Auth\\RegisterDto.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "RentAPlace\\DTOs\\Auth\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:59:11.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Models\\Review.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Models\\Review.cs",
+              "RelativeToolTip": "RentAPlace\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:58:26.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "RentAPlace\\Models\\Reservation.cs",
+              "ToolTip": "D:\\RentAPlace Final\\RentAPlace\\RentAPlace\\RentAPlaceBackend\\RentAPlace\\Models\\Reservation.cs",
+              "RelativeToolTip": "RentAPlace\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:58:13.884Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

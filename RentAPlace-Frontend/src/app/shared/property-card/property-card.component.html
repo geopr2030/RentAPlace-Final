@@ -1,0 +1,26 @@
+<div class="card" [routerLink]="['/property', property.propertyId]">
+  <div class="image-container">
+    <img [src]="getDisplayImage()" [alt]="property.title">
+    <div class="rating" *ngIf="property.averageRating > 0">
+      ⭐ {{ property.averageRating | number:'1.1-1' }}
+    </div>
+  </div>
+  
+  <div class="card-content">
+    <div class="card-header">
+      <h3 class="title">{{ property.title }}</h3>
+      <span class="type">{{ property.propertyType }}</span>
+    </div>
+    
+    <p class="location">📍 {{ property.location }}</p>
+    
+    <div class="features">
+      <span *ngFor="let f of property.features.slice(0, 3)" class="feature-tag">{{ f }}</span>
+      <span *ngIf="property.features.length > 3" class="more">+{{ property.features.length - 3 }}</span>
+    </div>
+    
+    <div class="footer">
+      <span class="price">₹{{ property.pricePerNight }} <small>/ night</small></span>
+    </div>
+  </div>
+</div>
